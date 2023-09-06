@@ -1,0 +1,17 @@
+{
+  "name": "typescript-demo",
+  "version": "1.0.0",
+  "dependencies": {
+    "prompt-sync": "*"
+  },
+  "description": "Demo typescript application",
+  "main": "index.js",
+  "scripts": {
+    "run": "tsc & node ./build/index.js"
+  },
+  "author": "Ben Tweet",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/prompt-sync": "^4.2.0"
+  }
+}
